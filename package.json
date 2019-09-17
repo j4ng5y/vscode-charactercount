@@ -1,27 +1,78 @@
 {
-	"name": "wordcount",
-	"displayName": "Word Count",
+	"name": "charactercount",
+	"displayName": "Character Count",
 	"version": "0.1.0",
-	"publisher": "ms-vscode",
-	"description": "Markdown Word Count Example - a status bar contribution that reports out the number of words in a Markdown document as you interact with it.",
+	"publisher": "j4ng5y",
+	"description": "Character Count - a status bar contribution that reports out the number of characters in a file as you interact with it.",
 	"author": {
-		"name": "seanmcbreen"
+		"name": "j4ng5y"
 	},
 	"categories": [
 		"Other"
 	],
 	"license": "SEE LICENSE IN LICENSE.txt",
-	"icon": "images/icon.png",
 	"galleryBanner": {
 		"color": "#C80000",
 		"theme": "dark"
 	},
 	"activationEvents": [
-		"onLanguage:markdown"
+		"onLanguage:abap",
+		"onLanguage:bat",
+		"onLanguage:bibtex",
+		"onLanguage:clojure",
+		"onLanguage:coffeescript",
+		"onLanguage:c",
+		"onLanguage:cpp",
+		"onLanguage:csharp",
+		"onLanguage:css",
+		"onLanguage:diff",
+		"onLanguage:dockerfile",
+		"onLanguage:fsharp",
+		"onLanguage:git-commit",
+		"onLanguage:git-rebase",
+		"onLanguage:go",
+		"onLanguage:groovy",
+		"onLanguage:handlebars",
+		"onLanguage:html",
+		"onLanguage:ini",
+		"onLanguage:java",
+		"onLanguage:javascript",
+		"onLanguage:javascriptreact",
+		"onLanguage:json",
+		"onLanguage:jsonc",
+		"onLanguage:latex",
+		"onLanguage:less",
+		"onLanguage:lua",
+		"onLanguage:makefile",
+		"onLanguage:markdown",
+		"onLanguage:objective-c",
+		"onLanguage:objective-cpp",
+		"onLanguage:perl",
+		"onLanguage:perl6",
+		"onLanguage:php",
+		"onLanguage:powershell",
+		"onLanguage:jade",
+		"onLanguage:python",
+		"onLanguage:r",
+		"onLanguage:razor",
+		"onLanguage:ruby",
+		"onLanguage:rust",
+		"onLanguage:scss",
+		"onLanguage:shaderlab",
+		"onLanguage:shellscript",
+		"onLanguage:sql",
+		"onLanguage:swift",
+		"onLanguage:typescript",
+		"onLanguage:typescriptreact",
+		"onLanguage:tex",
+		"onLanguage:vb",
+		"onLanguage:xml",
+		"onLanguage:xsl",
+		"onLanguage:yaml"
 	],
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/Microsoft/vscode-wordcount.git"
+		"url": "https://github.com/j4ng5y/vscode-charactercount.git"
 	},
 	"engines": {
 		"vscode": "0.10.x"
@@ -32,7 +83,7 @@
 		"compile": "node ./node_modules/vscode/bin/compile -watch -p ./"
 	},
 	"devDependencies": {
-		"vscode": "0.10.x",
-		"typescript": "^1.6.2"
+		"typescript": "^1.6.2",
+		"vscode": "0.10.x"
 	}
 }
